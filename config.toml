@@ -114,13 +114,13 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Ceremony"
-    subtitle = "We're still finalizing these details but here are a few things to know to set expectations:
+    subtitle = """We're still finalizing these details but here are a few things to know to set expectations:
     - Will take place in the early evening around 4pm
     - Location will be near Somerdale, NJ
     - It will be short and sweet.
     - Does not require an RSVP - the RSVP is only for the reception.
     
-    Please check back for final details! We will also send an e-mail reminder once they are up on this site."
+    Please check back for final details! We will also send an e-mail reminder once they are up on this site."""
 
     [params.portfolio.modal]
       client = "Client"
@@ -134,10 +134,10 @@ googleAnalytics = ""
     enable = true
     title = "Reception"
     subtitle = "Flying Fish Brewing Company (oh a brewery, shocking.)"
-    description = "7-11 PM EST
+    description = """7-11 PM EST
     Dinner, beer, and music will be served.
     
-    --insert google maps link to brewery--"
+    --insert google maps link to brewery--"""
     
     endpoint = "Be part<br>of our<br>story!"
 
