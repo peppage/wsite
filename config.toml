@@ -45,14 +45,14 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Nuptials and Beer"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    services = "About"
+    portfolio = "Ceremony"
+    about = "Reception"
+    team = "Accomodations"
+    contact = "RSVP"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -75,16 +75,16 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = "Pepp and Val's Brewery Party"
+    subtitle = "Oh and Marriage"
     buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "About"
+    description = "After 6 years of courtship, Val and Pepp (aka Mike for a few of you) have decided to reaffirm their commitment in writing. We're excited to share this day with all of you! And the beer. Maybe more excited for the beer."
 
     [[params.services.row]]
 
@@ -113,8 +113,14 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Ceremony"
+    subtitle = "We're still finalizing these details but here are a few things to know to set expectations:
+    - Will take place in the early evening around 4pm
+    - Location will be near Somerdale, NJ
+    - It will be short and sweet.
+    - Does not require an RSVP - the RSVP is only for the reception.
+    
+    Please check back for final details! We will also send an e-mail reminder once they are up on this site."
 
     [params.portfolio.modal]
       client = "Client"
@@ -126,8 +132,13 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Reception"
+    subtitle = "Flying Fish Brewing Company (oh a brewery, shocking.)"
+    description = "7-11 PM EST
+    Dinner, beer, and music will be served.
+    
+    --insert google maps link to brewery--"
+    
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -163,9 +174,9 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Accomodations"
+    subtitle = "For those traveling from out of town, we've blocked a rooms at the locations below."
+    description = "TBC"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -240,8 +251,8 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    title = "RSVP"
+    subtitle  = "Please fill out the form by xxxxx to RSVP to the reception at Flying Fish"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
