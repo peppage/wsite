@@ -114,13 +114,16 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Ceremony"
-    subtitle = """We're still finalizing these details but here are a few things to know to set expectations:
-    - Will take place in the early evening around 4pm
-    - Location will be near Somerdale, NJ
-    - It will be short and sweet.
-    - Does not require an RSVP - the RSVP is only for the reception.
-    
-    Please check back for final details! We will also send an e-mail reminder once they are up on this site."""
+    subtitle = """We're still finalizing these details but here are a few things to know to set expectations:<br>
+    <br>
+      Will take place in the early evening around 4pm<br>
+      Location will be near Somerdale, NJ<br>
+      It will be short and sweet.<br>
+      Does not require an RSVP - the RSVP is only for the reception.<br>
+    <p>   
+    Please check back for final details! We will also send an e-mail reminder once they are up on this site.
+    </p>
+    """
 
     [params.portfolio.modal]
       client = "Client"
@@ -223,7 +226,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -307,7 +310,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
