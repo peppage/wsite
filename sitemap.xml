@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/wsite/</loc>
+    <loc>http://valandpepp.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/wsite/categories/</loc>
+    <loc>http://valandpepp.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/wsite/tags/</loc>
+    <loc>http://valandpepp.com/tags/</loc>
     <priority>0</priority>
   </url>
   
