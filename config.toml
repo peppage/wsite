@@ -117,9 +117,12 @@ googleAnalytics = ""
     title = "Ceremony"
     subtitle = """We're still finalizing these details but here are a few things to know to set expectations:<br>
     <br>
-      Will take place in the early evening around 4pm<br>
-      Location will be near Somerdale, NJ<br>
-      It will be short and sweet.<br>
+      <ul>
+        <li>Will take place in the early evening around 4pm</li>
+        <li>Location will be near Somerdale, NJ</li>
+        <li>It will be short and sweet.</li>
+      </ul>
+      <br>
       Does not require an RSVP - the RSVP is only for the reception.<br>
     <p>   
     Please check back for final details! We will also send an e-mail reminder once they are up on this site.
