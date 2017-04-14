@@ -259,7 +259,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "RSVP"
-    subtitle  = "Please fill out the form by xxxxx to RSVP to the reception at Flying Fish
+    subtitle  = "Please fill out the form by September 15th to RSVP to the reception at Flying Fish
     
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQ7SECHvhdK-OvSey_G4m2GK0JNDlW1RblbZV7Pnx-bgghGg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>"
     buttonText = "Send message"
