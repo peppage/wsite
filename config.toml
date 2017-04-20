@@ -45,7 +45,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Nuptials and Beer"
+    brand = "Val + Pepp"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "About"
@@ -78,14 +78,14 @@ googleAnalytics = ""
     title = "Oh and Marriage"
     subtitle = "Pepp and Val's Brewery Party"
     subtitlesubtitle = "October 21, 2017"
-    buttonText = "Tell me more"
+    buttonText = "RSVP"
 
 
   # Services section
   [params.services]
     enable = true
     title = "About"
-    description = "After 6 years of courtship, Val and Pepp (aka Mike for a few of you) have decided to reaffirm their commitment in writing. We're excited to share this day with all of you! And the beer. Maybe more excited for the beer."
+    description = "After 6 years of testing it out, Val and Pepp (aka Mike for a few of you) have to commit their relationship in writing. We're excited to share this day with all of you! And the beer. Maybe more excited for the beer."
 
     [[params.services.row]]
 
@@ -121,9 +121,9 @@ googleAnalytics = ""
         <li>Will take place in the early evening around 4pm</li>
         <li>Location will be near Somerdale, NJ</li>
         <li>It will be short and sweet.</li>
+      <li>Does not require an RSVP - the RSVP is only for the reception.</li>
       </ul>
       <br>
-      Does not require an RSVP - the RSVP is only for the reception.<br>
     <p>   
     Please check back for final details! We will also send an e-mail reminder once they are up on this site.
     </p>
@@ -140,10 +140,11 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Reception"
-    subtitle = "Flying Fish Brewing Company (oh a brewery, shocking.)"
+    subtitle = "Flying Fish Brewing Company (oh a brewery, shocking.)<br>
+     7-11 PM EST<br>
+     Dinner, beer, and music will be served.<br>"
     description = """<img style="height:150px;" src="https://www.flyingfish.com/wp-content/uploads/Flying-fish-logo.jpg"><br><br>
-    7-11 PM EST<br>
-    Dinner, beer, and music will be served.<br><br>
+   <br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.9198626690622!2d-75.022273984475!3d39.85362889761621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6cda94977ad1d%3A0xf57dd95cd14aab72!2sFlying+Fish+Brewing+Company!5e0!3m2!1sen!2sus!4v1492135383770" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>"""
     
     endpoint = "Be part<br>of our<br>story!"
@@ -259,9 +260,9 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "RSVP"
-    subtitle  = "Please fill out the form by September 15th to RSVP to the reception at Flying Fish
+    subtitle  = "Please fill out the form below by September 15th to RSVP to the reception at Flying Fish
     
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQ7SECHvhdK-OvSey_G4m2GK0JNDlW1RblbZV7Pnx-bgghGg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>"
+    https://goo.gl/forms/P0NY3ZjIaF8otVA83"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
