@@ -85,7 +85,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "About"
-    description = "After 6 years of testing it out, Val and Pepp (aka Mike for a few of you) have to commit their relationship in writing. We're excited to share this day with all of you! And the beer. Maybe more excited for the beer."
+    description = "After 6 years of testing it out, Val and Pepp (aka Mike for a few of you) have decided to commit their relationship in writing. We're excited to share this day with all of you! And the beer. Maybe more excited for the beer."
 
     [[params.services.row]]
 
