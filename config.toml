@@ -183,8 +183,18 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Accomodations"
-    subtitle = "For those traveling from out of town, we've blocked a rooms at the locations below."
-    description = "TBC"
+    subtitle = "For those traveling from out of town, we've blocked a rooms at the location below.<br>
+    Transportation to the venue will be provided from this hotel."
+    description = "Spring Hill Suites Mt. Laurel/Cherry Hill <br>
+    1031 Voorhees Drive<br>
+    Voorhees, New Jersey 08043 <br>
+    www.marriott.com/PHLVO <br>
+    <br>
+    Booking by phone refer to \"Brous-Peppler Wedding\" or \"BPW\" <br>
+    Booking online choose Special Rates and use codes:<br>
+    King Suites: BPWBPWA <br>
+    Double Queen Suites: BPWBPWB <br>
+    You need to book by September 21st to receive the group rate."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
