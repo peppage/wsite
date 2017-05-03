@@ -189,14 +189,14 @@ googleAnalytics = ""
     Transportation to the venue will be provided from this hotel."""
     description = """Spring Hill Suites Mt. Laurel/Cherry Hill <br>
     1031 Voorhees Drive<br>
-    Voorhees, New Jersey 08043 <br>
-    www.marriott.com/PHLVO <br>
+    Voorhees, New Jersey, 08043 <br>
+     <a href=\" www.marriott.com/PHLVO\"> www.marriott.com/PHLVO</a> <br>
     <br>
-    Booking by phone refer to \"Brous-Peppler Wedding\" or \"BPW\" <br>
+    Booking by phone refer to \"Brous-Peppler Wedding\" or \"BPW\" <br><br>
     Booking online choose Special Rates and use codes:<br>
     King Suites: BPWBPWA <br>
-    Double Queen Suites: BPWBPWB <br>
-    You need to book by September 21st to receive the group rate."""
+    Double Queen Suites: BPWBPWB <br><br>
+    You need to book by  <b>September 21st</b> to receive the group rate."""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -280,7 +280,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "RSVP"
-    subtitle  = """Please fill out the form below by September 15th to RSVP to the reception at Flying Fish<br>
+    subtitle  = """Please fill out the form below by <b>September 15th </b> to RSVP to the reception at Flying Fish<br>
     <br>
     https://goo.gl/forms/P0NY3ZjIaF8otVA83"""
     buttonText = "Send message"
