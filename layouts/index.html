@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+{{ "<!-- " | safeHTML }}
+ ___      ___  ________   ___               ________   ________    ________          ________   _______    ________   ________   
+|\  \    /  /||\   __  \ |\  \             |\   __  \ |\   ___  \ |\   ___ \        |\   __  \ |\  ___ \  |\   __  \ |\   __  \  
+\ \  \  /  / /\ \  \|\  \\ \  \            \ \  \|\  \\ \  \\ \  \\ \  \_|\ \       \ \  \|\  \\ \   __/| \ \  \|\  \\ \  \|\  \ 
+ \ \  \/  / /  \ \   __  \\ \  \            \ \   __  \\ \  \\ \  \\ \  \ \\ \       \ \   ____\\ \  \_|/__\ \   ____\\ \   ____\
+  \ \    / /    \ \  \ \  \\ \  \____        \ \  \ \  \\ \  \\ \  \\ \  \_\\ \       \ \  \___| \ \  \_|\ \\ \  \___| \ \  \___|
+   \ \__/ /      \ \__\ \__\\ \_______\       \ \__\ \__\\ \__\\ \__\\ \_______\       \ \__\     \ \_______\\ \__\     \ \__\   
+    \|__|/        \|__|\|__| \|_______|        \|__|\|__| \|__| \|__| \|_______|        \|__|      \|_______| \|__|      \|__|   
+                                                                                                                                 
+{{ " --> " | safeHTML }}   
+                                                                                                                                               
+    {{ partial "nav.html" . }}
+    {{ partial "hero.html" . }}
+
+    {{ if .Site.Params.services.enable }}
+      {{ partial "services.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.portfolio.enable }}
+      {{ partial "portfolio.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.about.enable }}
+      {{ partial "about.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.team.enable }}
+      {{ partial "team.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.clients_list.enable }}
+      {{ partial "clients.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.registry.enable }}
+      {{ partial "registry.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.contact.enable }}
+      {{ partial "contact.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.portfolio.enable }}
+      {{ partial "modals.html" . }}
+    {{ end }}
+
+    {{ partial "js.html" . }}
+  </body>
+</html>

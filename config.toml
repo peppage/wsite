@@ -52,6 +52,7 @@ googleAnalytics = ""
     portfolio = "Ceremony"
     about = "Reception"
     team = "Accomodations"
+    registry = "Gifts"
     contact = "RSVP"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -143,7 +144,7 @@ googleAnalytics = ""
     subtitle = """Flying Fish Brewing Company (oh a brewery, shocking.)<br>
      7-11 PM EST<br>
      Dinner, beer, and music will be served.<br> <br>
-     Dress Code: None but clothing is not optional. Wear what makes you feel great!"""
+     Dress Code: None but clothing is not optional<!-- Pepp: OR IS IT!? -->. Wear what makes you feel great!"""
     description = """<img style="height:150px;" src="https://www.flyingfish.com/wp-content/uploads/Flying-fish-logo.jpg"><br><br>
    <br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.9198626690622!2d-75.022273984475!3d39.85362889761621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6cda94977ad1d%3A0xf57dd95cd14aab72!2sFlying+Fish+Brewing+Company!5e0!3m2!1sen!2sus!4v1492135383770" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>"""
@@ -185,8 +186,8 @@ googleAnalytics = ""
     #center = true
     title = "Accomodations"
     subtitle = """For those traveling from out of town, we've blocked a rooms at the location below.<br>
-    Transportation to the venue will be provided from this hotel."
-    description = "Spring Hill Suites Mt. Laurel/Cherry Hill <br>
+    Transportation to the venue will be provided from this hotel."""
+    description = """Spring Hill Suites Mt. Laurel/Cherry Hill <br>
     1031 Voorhees Drive<br>
     Voorhees, New Jersey 08043 <br>
     www.marriott.com/PHLVO <br>
@@ -266,6 +267,14 @@ She worked at Pied Piper for years until they went belly up."""
       [[params.clients]]
         logo = "creative-market.jpg"
         link = "#"
+  
+  # Registry section
+  [params.registry]
+    enable = true
+    title = "Gifts"
+    subtitle = """Gifts are not required! We are more than happy to have you there celebrating with us. Seriously."""
+    description = """If you'd still like to give something, cash is preferred as we plan our future together. We've also put together a very small registry at the link below.<br> 
+    <a href=\"https://www.amazon.com/wedding/share/valandpepp\">https://www.amazon.com/wedding/share/valandpepp</a>"""
 
   # Contact section
   [params.contact]
