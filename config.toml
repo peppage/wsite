@@ -187,15 +187,13 @@ googleAnalytics = ""
     title = "Accomodations"
     subtitle = """For those traveling from out of town, we've blocked a rooms at the location below.<br>
     Transportation to the venue will be provided from this hotel."""
-    description = """Spring Hill Suites Mt. Laurel/Cherry Hill <br>
+    description = """Spring Hill Suites Vorhees Mt. Laurel/Cherry Hill <br>
     1031 Voorhees Drive<br>
     Voorhees, New Jersey, 08043 <br>
-     <a href=\" www.marriott.com/PHLVO\"> www.marriott.com/PHLVO</a> <br>
-    <br>
+         <br>
     Booking by phone refer to \"Brous-Peppler Wedding\" or \"BPW\" <br><br>
-    Booking online choose Special Rates and use codes:<br>
-    King Suites: BPWBPWA <br>
-    Double Queen Suites: BPWBPWB <br><br>
+    Booking online: <a href=\" cwp.marriott.com/phlvo/valeriemichael\"> http://cwp.marriott.com/phlvo/valeriemichael</a> <br>
+    <br>
     You need to book by  <b>September 21st</b> to receive the group rate."""
 
     # All team member's pictures are stored under 'static/img/team'.
