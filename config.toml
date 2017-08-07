@@ -116,17 +116,12 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Ceremony"
-    subtitle = """We're still finalizing these details but here are a few things to know to set expectations:<br>
-    <br>
-      <ul>
-        <li>Will take place in the early evening around 4pm</li>
-        <li>Location will be near Somerdale, NJ</li>
-        <li>It will be short and sweet.</li>
-      <li>Does not require an RSVP - the RSVP is only for the reception.</li>
-      </ul>
+    subtitle = """<p>
+      Sorry we lied before. Find a different place was hard.<br>
       <br>
-    <p>   
-    Please check back for final details! We will also send an e-mail reminder once they are up on this site.
+      Ceremony will start at 7:15pm at Flying Fish Brewery.<br>
+      <br>
+      Arrive at 7, grab a beer and watch it all go down.
     </p>
     """
 
